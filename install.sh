@@ -57,9 +57,9 @@ phpversion=7.3
 # Config options located in ./config.txt. In first run script makes that file for you.
 if [ ! -e ./config.txt ]; then
       sudo echo "#This is config file for main installer. Put any extra options in here." > ./config.txt
-      sudo echo "rpicamdir=\"html\"" >> ./config.txt
+      sudo echo "rpicamdir=\"rpicam\"" >> ./config.txt
       sudo echo "webserver=\"apache\"" >> ./config.txt
-      sudo echo "webport=\"80\"" >> ./config.txt
+      sudo echo "webport=\"6969\"" >> ./config.txt
       sudo echo "user=\"\"" >> ./config.txt
       sudo echo "webpasswd=\"\"" >> ./config.txt
       sudo echo "autostart=\"yes\"" >> ./config.txt
